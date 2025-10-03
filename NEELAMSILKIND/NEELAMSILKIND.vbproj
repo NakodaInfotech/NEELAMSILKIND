@@ -3068,6 +3068,12 @@
       <DependentUpon>SOCutWiseDetails.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Crystal Reports\Sale Order\SOShadeWiseDispatchPlanningReport.vb">
+      <DependentUpon>SOShadeWiseDispatchPlanningReport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Reports\Crystal Reports\Sale Order\SOItemWiseShadeDetails.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -7204,6 +7210,10 @@
     <EmbeddedResource Include="Reports\Crystal Reports\Sale Order\SOCutWiseDetails.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>SOCutWiseDetails.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Crystal Reports\Sale Order\SOShadeWiseDispatchPlanningReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SOShadeWiseDispatchPlanningReport.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Crystal Reports\Sale Order\SOItemWiseShadeDetails.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

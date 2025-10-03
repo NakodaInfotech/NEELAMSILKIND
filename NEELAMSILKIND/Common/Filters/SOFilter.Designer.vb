@@ -101,6 +101,7 @@ Partial Class SOFilter
         Me.Label9 = New System.Windows.Forms.Label()
         Me.cmdshow = New System.Windows.Forms.Button()
         Me.cmdexit = New System.Windows.Forms.Button()
+        Me.RBDISPATCHPLANNINGSHADE = New System.Windows.Forms.RadioButton()
         Me.BlendPanel2.SuspendLayout()
         Me.GPCATEGORY.SuspendLayout()
         CType(Me.GRIDBILLDETAILSCATEGORY, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -238,7 +239,7 @@ Partial Class SOFilter
         '
         Me.GCATEGORY.Caption = "Category"
         Me.GCATEGORY.FieldName = "CATEGORY"
-        Me.GCATEGORY.ImageIndex = 0
+        Me.GCATEGORY.ImageOptions.ImageIndex = 0
         Me.GCATEGORY.Name = "GCATEGORY"
         Me.GCATEGORY.OptionsColumn.AllowEdit = False
         Me.GCATEGORY.Visible = True
@@ -436,7 +437,7 @@ Partial Class SOFilter
         '
         Me.GITEMNAME.Caption = "Item Name"
         Me.GITEMNAME.FieldName = "ITEMNAME"
-        Me.GITEMNAME.ImageIndex = 0
+        Me.GITEMNAME.ImageOptions.ImageIndex = 0
         Me.GITEMNAME.Name = "GITEMNAME"
         Me.GITEMNAME.OptionsColumn.AllowEdit = False
         Me.GITEMNAME.Visible = True
@@ -512,7 +513,7 @@ Partial Class SOFilter
         '
         Me.GCOLOR.Caption = "Shade"
         Me.GCOLOR.FieldName = "COLOR"
-        Me.GCOLOR.ImageIndex = 0
+        Me.GCOLOR.ImageOptions.ImageIndex = 0
         Me.GCOLOR.Name = "GCOLOR"
         Me.GCOLOR.OptionsColumn.AllowEdit = False
         Me.GCOLOR.Visible = True
@@ -588,7 +589,7 @@ Partial Class SOFilter
         '
         Me.GDESIGN.Caption = "Design No"
         Me.GDESIGN.FieldName = "DESIGNNO"
-        Me.GDESIGN.ImageIndex = 0
+        Me.GDESIGN.ImageOptions.ImageIndex = 0
         Me.GDESIGN.Name = "GDESIGN"
         Me.GDESIGN.OptionsColumn.AllowEdit = False
         Me.GDESIGN.Visible = True
@@ -664,7 +665,7 @@ Partial Class SOFilter
         '
         Me.GNAME.Caption = "Name"
         Me.GNAME.FieldName = "NAME"
-        Me.GNAME.ImageIndex = 0
+        Me.GNAME.ImageOptions.ImageIndex = 0
         Me.GNAME.Name = "GNAME"
         Me.GNAME.OptionsColumn.AllowEdit = False
         Me.GNAME.Visible = True
@@ -804,6 +805,7 @@ Partial Class SOFilter
         'GroupBox3
         '
         Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox3.Controls.Add(Me.RBDISPATCHPLANNINGSHADE)
         Me.GroupBox3.Controls.Add(Me.RBDISPATCHPLANNING)
         Me.GroupBox3.Controls.Add(Me.RBORDERSTOCK)
         Me.GroupBox3.Controls.Add(Me.RDBDATEWISE)
@@ -813,7 +815,7 @@ Partial Class SOFilter
         Me.GroupBox3.Font = New System.Drawing.Font("Calibri", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(706, 57)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(266, 88)
+        Me.GroupBox3.Size = New System.Drawing.Size(266, 113)
         Me.GroupBox3.TabIndex = 8
         Me.GroupBox3.TabStop = False
         '
@@ -1056,6 +1058,16 @@ Partial Class SOFilter
         Me.cmdexit.Text = "E&xit"
         Me.cmdexit.UseVisualStyleBackColor = False
         '
+        'RBDISPATCHPLANNINGSHADE
+        '
+        Me.RBDISPATCHPLANNINGSHADE.AutoSize = True
+        Me.RBDISPATCHPLANNINGSHADE.Location = New System.Drawing.Point(26, 85)
+        Me.RBDISPATCHPLANNINGSHADE.Name = "RBDISPATCHPLANNINGSHADE"
+        Me.RBDISPATCHPLANNINGSHADE.Size = New System.Drawing.Size(199, 18)
+        Me.RBDISPATCHPLANNINGSHADE.TabIndex = 6
+        Me.RBDISPATCHPLANNINGSHADE.Text = "Dispatch Planning - Shade Wise"
+        Me.RBDISPATCHPLANNINGSHADE.UseVisualStyleBackColor = True
+        '
         'SOFilter
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -1182,4 +1194,5 @@ Partial Class SOFilter
     Friend WithEvents GCHKCATEGORY As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents RepositoryItemCheckEdit5 As DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit
     Private WithEvents GCATEGORY As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents RBDISPATCHPLANNINGSHADE As RadioButton
 End Class

@@ -8,3 +8,13 @@ D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.vbproj.CoreCompileInputs.cache
 D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.dll
 D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.xml
 D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.pdb
+D:\GIT\NEELAMSILKIND\DB\bin\Debug\DB.dll
+D:\GIT\NEELAMSILKIND\DB\bin\Debug\DB.pdb
+D:\GIT\NEELAMSILKIND\DB\bin\Debug\DB.xml
+D:\GIT\NEELAMSILKIND\DB\obj\Debug\DB.vbproj.AssemblyReference.cache
+D:\GIT\NEELAMSILKIND\DB\obj\Debug\DB.Resources.resources
+D:\GIT\NEELAMSILKIND\DB\obj\Debug\DB.vbproj.GenerateResource.cache
+D:\GIT\NEELAMSILKIND\DB\obj\Debug\DB.vbproj.CoreCompileInputs.cache
+D:\GIT\NEELAMSILKIND\DB\obj\Debug\DB.dll
+D:\GIT\NEELAMSILKIND\DB\obj\Debug\DB.xml
+D:\GIT\NEELAMSILKIND\DB\obj\Debug\DB.pdb

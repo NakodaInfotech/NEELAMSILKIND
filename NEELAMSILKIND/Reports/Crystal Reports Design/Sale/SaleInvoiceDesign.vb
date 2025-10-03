@@ -55,6 +55,7 @@ Public Class SaleInvoiceDesign
     Dim RPTSOSTATUSDATE As New SOStatusDateWiseReport
     Dim RPTSOCUTDTLS As New SOCutWiseDetails
     Dim RPTSODISPATCHPLAN As New SODispatchPlanningReport
+    Dim RPTSODISPATCHSHADEPLAN As New SOShadeWiseDispatchPlanningReport
     Dim RPTORDERSTOCK As New SOVsStockReport
 
 
@@ -120,6 +121,7 @@ Public Class SaleInvoiceDesign
             If FRMSTRING = "SOSTATUSDATE" Then crTables = RPTSOSTATUSDATE.Database.Tables
             If FRMSTRING = "CUTWISEDTLS" Then crTables = RPTSOCUTDTLS.Database.Tables
             If FRMSTRING = "DISPATCHPLAN" Then crTables = RPTSODISPATCHPLAN.Database.Tables
+            If FRMSTRING = "DISPATCHSHADEPLAN" Then crTables = RPTSODISPATCHSHADEPLAN.Database.Tables
             If FRMSTRING = "ORDERVSSTOCK" Then crTables = RPTORDERSTOCK.Database.Tables
 
             If FRMSTRING = "POSTATUS" Then crTables = RPTPOSTATUS.Database.Tables
@@ -249,6 +251,10 @@ Public Class SaleInvoiceDesign
                 crpo.ReportSource = RPTSODISPATCHPLAN
                 RPTSODISPATCHPLAN.DataDefinition.FormulaFields("TYPE").Text = "'" & PENDINGSO & "'"
                 RPTSODISPATCHPLAN.DataDefinition.FormulaFields("PERIOD").Text = "'" & PERIOD & "'"
+            ElseIf FRMSTRING = "DISPATCHSHADEPLAN" Then
+                crpo.ReportSource = RPTSODISPATCHSHADEPLAN
+                RPTSODISPATCHSHADEPLAN.DataDefinition.FormulaFields("TYPE").Text = "'" & PENDINGSO & "'"
+                RPTSODISPATCHSHADEPLAN.DataDefinition.FormulaFields("PERIOD").Text = "'" & PERIOD & "'"
             ElseIf FRMSTRING = "ORDERVSSTOCK" Then
                 crpo.ReportSource = RPTORDERSTOCK
 
@@ -532,6 +538,12 @@ Public Class SaleInvoiceDesign
                 expo.ExportFormatType = ExportFormatType.PortableDocFormat
                 expo.DestinationOptions = oDfDopt
                 RPTSODISPATCHPLAN.Export()
+            ElseIf FRMSTRING = "DISPATCHSHADEPLAN" Then
+                expo = RPTSODISPATCHSHADEPLAN.ExportOptions
+                expo.ExportDestinationType = ExportDestinationType.DiskFile
+                expo.ExportFormatType = ExportFormatType.PortableDocFormat
+                expo.DestinationOptions = oDfDopt
+                RPTSODISPATCHSHADEPLAN.Export()
             ElseIf FRMSTRING = "ORDERVSSTOCK" Then
                 expo = RPTORDERSTOCK.ExportOptions
                 expo.ExportDestinationType = ExportDestinationType.DiskFile

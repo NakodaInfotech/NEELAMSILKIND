@@ -152,8 +152,8 @@ Public Class SOFilter
                     OBJGRN.FRMSTRING = "SOSTATUSDATE"
                 ElseIf RBCUTWISE.Checked = True Then
                     OBJGRN.FRMSTRING = "CUTWISEDTLS"
-                ElseIf RBDISPATCHPLANNING.Checked = True Then
-                    OBJGRN.FRMSTRING = "DISPATCHPLAN"
+                ElseIf RBDISPATCHPLANNING.Checked = True Or RBDISPATCHPLANNINGSHADE.Checked = True Then
+                    If RBDISPATCHPLANNING.Checked = True Then OBJGRN.FRMSTRING = "DISPATCHPLAN" Else OBJGRN.FRMSTRING = "DISPATCHSHADEPLAN"
 
 
                     'FOR BARCODESTOCK
