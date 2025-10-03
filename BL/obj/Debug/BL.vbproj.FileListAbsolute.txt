@@ -1,0 +1,14 @@
+D:\VSSOLD\NEELAMSILKIND\BL\bin\Debug\BL.dll
+D:\VSSOLD\NEELAMSILKIND\BL\bin\Debug\BL.pdb
+D:\VSSOLD\NEELAMSILKIND\BL\bin\Debug\BL.xml
+D:\VSSOLD\NEELAMSILKIND\BL\bin\Debug\DB.dll
+D:\VSSOLD\NEELAMSILKIND\BL\bin\Debug\DB.pdb
+D:\VSSOLD\NEELAMSILKIND\BL\bin\Debug\DB.xml
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.vbproj.AssemblyReference.cache
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.Resources.resources
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.vbproj.GenerateResource.cache
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.vbproj.CoreCompileInputs.cache
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.vbproj.Up2Date
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.dll
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.xml
+D:\VSSOLD\NEELAMSILKIND\BL\obj\Debug\BL.pdb

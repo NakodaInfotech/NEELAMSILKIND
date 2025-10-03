@@ -1,0 +1,10 @@
+D:\VSSOLD\NEELAMSILKIND\DB\bin\Debug\DB.dll
+D:\VSSOLD\NEELAMSILKIND\DB\bin\Debug\DB.pdb
+D:\VSSOLD\NEELAMSILKIND\DB\bin\Debug\DB.xml
+D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.vbproj.AssemblyReference.cache
+D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.Resources.resources
+D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.vbproj.GenerateResource.cache
+D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.vbproj.CoreCompileInputs.cache
+D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.dll
+D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.xml
+D:\VSSOLD\NEELAMSILKIND\DB\obj\Debug\DB.pdb

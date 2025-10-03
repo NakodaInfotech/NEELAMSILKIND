@@ -1,0 +1,391 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NEELAMSILKIND
+</name>
+</assembly>
+<members>
+<member name="T:NEELAMSILKIND.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources._assembly">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources._Exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Acccentre">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Acccentre_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.addnew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Admin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.AirPort_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.annealing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.arrow_bottom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.arrow_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.arrow_top">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.backupb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.bank">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.bankbook">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.bankbook_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.banknote">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Bookings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.books">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.BrushSZ">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.check_user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.CN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.CN1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Contra">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.COPY">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Copy_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.COPY1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.DELETE_ICON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.DN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.EINVOICE_LOGO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.email_initiator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.EWAY_BILL_IMAGE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Excel_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Forbidden">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.fork_6_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.hand">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.home2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.invoice1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.invoice21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.key">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Ledger_Ac">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.lock_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.MAIL_IMAGE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.MAIL_IMAGE1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Nakoda_ICON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.NEWINVOICE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.note_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.ok">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.Package">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.paid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.PhotoshopSZ">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.POINT02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.POINT04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.POINT041">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.recd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.refresh1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.reportsICON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.safe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.SelectYear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.sendforms">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.SMS2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.TDS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.TEXTRADE_SPASH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.trash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.upload">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.User">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.User11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.VIEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NEELAMSILKIND.My.Resources.Resources.VOUCHER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
