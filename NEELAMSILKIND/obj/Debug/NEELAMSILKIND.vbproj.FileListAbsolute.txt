@@ -622,9 +622,6 @@ D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DevExpress.XtraScheduler.v25.1.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DevExpress.XtraTreeList.v25.1.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
-D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\Newtonsoft.Json.dll
-D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\RestSharp.dll
-D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\TaxProEInvoice.API.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\VbPowerPack.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DB.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
