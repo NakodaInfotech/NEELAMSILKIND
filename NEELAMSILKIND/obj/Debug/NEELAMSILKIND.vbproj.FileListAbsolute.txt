@@ -671,7 +671,6 @@ D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DevExpress.XtraPrinting.v25.1.xml
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DevExpress.XtraRichEdit.v25.1.xml
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DevExpress.XtraScheduler.v25.1.xml
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DevExpress.XtraTreeList.v25.1.xml
-D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\TaxProEInvoice.API.dll.config
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DB.pdb
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DB.xml
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\DevExpress.Pdf.v25.1.Drawing.xml
@@ -696,7 +695,6 @@ D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\tr\Microsoft.QualityTools.Testing.F
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\bin\Debug\zh-Hant\Microsoft.QualityTools.Testing.Fakes.resources.dll
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\obj\Debug\NEELAMSILKIND.vbproj.AssemblyReference.cache
-D:\GIT\NEELAMSILKIND\NEELAMSILKIND\obj\Debug\NEELAMSILKIND.exe.config
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\obj\Debug\NEELAMSILKIND.DailyActivityFilter.resources
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\obj\Debug\NEELAMSILKIND.DispatchFilter.resources
 D:\GIT\NEELAMSILKIND\NEELAMSILKIND\obj\Debug\NEELAMSILKIND.EwayBillFilter.resources
