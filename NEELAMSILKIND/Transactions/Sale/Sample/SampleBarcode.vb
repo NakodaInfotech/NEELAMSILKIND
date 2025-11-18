@@ -231,19 +231,18 @@ Public Class SampleBarcode
                     oWrite = File.CreateText("D:\Barcode.txt")
 
 
-                    oWrite.WriteLine("<xpml><page quantity='0' pitch='50.8 mm'></xpml>G0")
-                    oWrite.WriteLine("n")
-                    oWrite.WriteLine("M0500")
-                    oWrite.WriteLine("O0214")
-                    oWrite.WriteLine("V0")
-                    oWrite.WriteLine("t1")
-                    oWrite.WriteLine("Kf0070")
-                    oWrite.WriteLine("<xpml></page></xpml><xpml><page quantity='1' pitch='50.8 mm'></xpml>L")
-                    oWrite.WriteLine("D11")
-                    oWrite.WriteLine("ySPM")
-                    oWrite.WriteLine("A2")
-                    oWrite.WriteLine("1911C1201700015Design No : " & CMBDESIGNNO.Text.Trim)
-                    oWrite.WriteLine("1911C1201140015Quality       : " & CMBMERCHANT.Text.Trim)
+                    oWrite.WriteLine("<xpml><page quantity='0' pitch='50.0 mm'></xpml>SIZE 97.5 mm, 50 mm")
+                    oWrite.WriteLine("DIRECTION 0,0")
+                    oWrite.WriteLine("REFERENCE 0,0")
+                    oWrite.WriteLine("OFFSET 0 mm")
+                    oWrite.WriteLine("SET PEEL OFF")
+                    oWrite.WriteLine("SET CUTTER OFF")
+                    oWrite.WriteLine("<xpml></page></xpml><xpml><page quantity='1' pitch='50.0 mm'></xpml>SET TEAR ON")
+                    oWrite.WriteLine("CLS")
+                    oWrite.WriteLine("CODEPAGE 1252")
+                    oWrite.WriteLine("TEXT 738,377,""0"",180,12,12,""Design No : " & CMBDESIGNNO.Text.Trim & """")
+                    oWrite.WriteLine("TEXT 738,262,""0"",180,12,12,""Quality       : " & CMBMERCHANT.Text.Trim & """")
+
 
                     Dim TEMPCATEGORY As String = ""
                     Dim TEMPNOOFMATCHING As Integer = 0
@@ -254,18 +253,18 @@ Public Class SampleBarcode
                     'GET NO OF MATCHINING
                     DT = OBJCMN.search(" DISTINCT ISNULL(COUNT(DESIGN_COLORID),0) AS NOOFMATCHING ", "", " DESIGNMASTER_COLOR INNER JOIN DESIGNMASTER ON DESIGNMASTER.DESIGN_ID=  DESIGNMASTER_COLOR.DESIGN_ID ", " AND DESIGN_NO = '" & CMBDESIGNNO.Text.Trim & "' AND DESIGNMASTER.DESIGN_YEARID = " & YearId)
                     If DT.Rows.Count > 0 Then TEMPNOOFMATCHING = Val(DT.Rows(0).Item("NOOFMATCHING"))
-                    oWrite.WriteLine("1911C1201420015Matching   : " & TEMPNOOFMATCHING)
+                    oWrite.WriteLine("TEXT 738,319,""0"",180,12,12,""Matching   : " & TEMPNOOFMATCHING & """")
 
 
                     'GET CATEGORY 
                     DT = OBJCMN.search(" ISNULL(CATEGORYMASTER.CATEGORY_NAME, '') AS CATEGORY ", "", " ITEMMASTER LEFT OUTER JOIN CATEGORYMASTER ON ITEMMASTER.item_categoryid = CATEGORYMASTER.category_id ", " AND ITEM_NAME = '" & CMBMERCHANT.Text.Trim & "' AND ITEM_YEARID = " & YearId)
                     If DT.Rows.Count > 0 Then TEMPCATEGORY = DT.Rows(0).Item("CATEGORY")
 
-                    oWrite.WriteLine("1911C1200860015Group        : " & TEMPCATEGORY)
-                    oWrite.WriteLine("1e6305100290015B" & TXTBARCODE.Text.Trim)
-                    oWrite.WriteLine("1911C1200090096" & TXTBARCODE.Text.Trim)
-                    oWrite.WriteLine("Q0001")
-                    oWrite.WriteLine("E")
+                    oWrite.WriteLine("TEXT 738,206,""0"",180,12,12,""Group        : " & TEMPCATEGORY & """")
+                    oWrite.WriteLine("BARCODE 738,159,""128M"",103,0,180,3,6,""" & TXTBARCODE.Text.Trim & """") 'BARCODE
+                    oWrite.WriteLine("TEXT 560,50,""0"",180,12,12,""" & TXTBARCODE.Text.Trim & """")
+
+                    oWrite.WriteLine("PRINT 1,1")
                     oWrite.WriteLine("<xpml></page></xpml><xpml><end/></xpml>")
                     oWrite.Dispose()
 
@@ -319,19 +318,17 @@ Public Class SampleBarcode
                             Dim oWrite As System.IO.StreamWriter
                             oWrite = File.CreateText("D:\Barcode.txt")
 
-                            oWrite.WriteLine("<xpml><page quantity='0' pitch='50.8 mm'></xpml>G0")
-                            oWrite.WriteLine("n")
-                            oWrite.WriteLine("M0500")
-                            oWrite.WriteLine("O0214")
-                            oWrite.WriteLine("V0")
-                            oWrite.WriteLine("t1")
-                            oWrite.WriteLine("Kf0070")
-                            oWrite.WriteLine("<xpml></page></xpml><xpml><page quantity='1' pitch='50.8 mm'></xpml>L")
-                            oWrite.WriteLine("D11")
-                            oWrite.WriteLine("ySPM")
-                            oWrite.WriteLine("A2")
-                            oWrite.WriteLine("1911C1201700015Design No : " & ROW("DESIGNNO"))
-                            oWrite.WriteLine("1911C1201140015Quality       : " & ROW("ITEMNAME"))
+                            oWrite.WriteLine("<xpml><page quantity='0' pitch='50.0 mm'></xpml>SIZE 97.5 mm, 50 mm")
+                            oWrite.WriteLine("DIRECTION 0,0")
+                            oWrite.WriteLine("REFERENCE 0,0")
+                            oWrite.WriteLine("OFFSET 0 mm")
+                            oWrite.WriteLine("SET PEEL OFF")
+                            oWrite.WriteLine("SET CUTTER OFF")
+                            oWrite.WriteLine("<xpml></page></xpml><xpml><page quantity='1' pitch='50.0 mm'></xpml>SET TEAR ON")
+                            oWrite.WriteLine("CLS")
+                            oWrite.WriteLine("CODEPAGE 1252")
+                            oWrite.WriteLine("TEXT 738,377,""0"",180,12,12,""Design No : " & ROW("DESIGNNO") & """")
+                            oWrite.WriteLine("TEXT 738,262,""0"",180,12,12,""Quality       : " & ROW("ITEMNAME") & """")
 
 
                             Dim TEMPCATEGORY As String = ""
@@ -339,20 +336,22 @@ Public Class SampleBarcode
                             Dim OBJCMN As New ClsCommon
                             Dim DT As New DataTable
 
+
                             'GET NO OF MATCHINING
                             DT = OBJCMN.search(" DISTINCT ISNULL(COUNT(DESIGN_COLORID),0) AS NOOFMATCHING ", "", " DESIGNMASTER_COLOR INNER JOIN DESIGNMASTER ON DESIGNMASTER.DESIGN_ID=  DESIGNMASTER_COLOR.DESIGN_ID ", " AND DESIGN_NO = '" & ROW("DESIGNNO") & "' AND DESIGNMASTER.DESIGN_YEARID = " & YearId)
                             If DT.Rows.Count > 0 Then TEMPNOOFMATCHING = Val(DT.Rows(0).Item("NOOFMATCHING"))
-                            oWrite.WriteLine("1911C1201420015Matching       : " & TEMPNOOFMATCHING)
+                            oWrite.WriteLine("TEXT 738,319,""0"",180,12,12,""Matching   : " & TEMPNOOFMATCHING & """")
+
 
                             'GET CATEGORY 
                             DT = OBJCMN.search(" ISNULL(CATEGORYMASTER.CATEGORY_NAME, '') AS CATEGORY ", "", " ITEMMASTER LEFT OUTER JOIN CATEGORYMASTER ON ITEMMASTER.item_categoryid = CATEGORYMASTER.category_id ", " AND ITEM_NAME = '" & ROW("ITEMNAME") & "' AND ITEM_YEARID = " & YearId)
                             If DT.Rows.Count > 0 Then TEMPCATEGORY = DT.Rows(0).Item("CATEGORY")
 
-                            oWrite.WriteLine("1911C1200860015Group        : " & TEMPCATEGORY)
-                            oWrite.WriteLine("1e6305100290015B" & ROW("BARCODE"))
-                            oWrite.WriteLine("1911C1200090096" & ROW("BARCODE"))
-                            oWrite.WriteLine("Q0001")
-                            oWrite.WriteLine("E")
+                            oWrite.WriteLine("TEXT 738,206,""0"",180,12,12,""Group        : " & TEMPCATEGORY & """")
+                            oWrite.WriteLine("BARCODE 738,159,""128M"",103,0,180,3,6,""" & ROW("BARCODE") & """") 'BARCODE
+                            oWrite.WriteLine("TEXT 560,50,""0"",180,12,12,""" & ROW("BARCODE") & """")
+
+                            oWrite.WriteLine("PRINT 1,1")
                             oWrite.WriteLine("<xpml></page></xpml><xpml><end/></xpml>")
                             oWrite.Dispose()
 
